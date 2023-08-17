@@ -2,15 +2,21 @@
 
 // Import components
 import './App.css';
+import Header from './Components/Header';
+import Gallery from './Components/Gallery';
+import Sidebar from './Components/Sidebar';
 
 function App(){
   return (
-    <div>
-      <h1>craigslist</h1>
       <div className="App">
-        {/* Your content will go here! */}
+      <div>
+        <Sidebar />
+        </div>
+        <div>
+        <Header />
+        <Gallery />
+        </div>
       </div>
-    </div>
   );
 }
 
